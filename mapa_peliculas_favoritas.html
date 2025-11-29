@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7320a2dd2f23e7bbefc8a597b768b61a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7320a2dd2f23e7bbefc8a597b768b61a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7320a2dd2f23e7bbefc8a597b768b61a = L.map(
+                "map_7320a2dd2f23e7bbefc8a597b768b61a",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fd66834f8dad65b19a0264a780d688ea = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fd66834f8dad65b19a0264a780d688ea.addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var marker_ae2cbdbcabef69f6e4889a58b4f67d2c = L.marker(
+                [-16.2902, -62.2521],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_e629c990b81f9d6bf19d6d18740fc5a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66ac0e97af66be79b973636615db80e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abbeba087f4796474cbdd10f115cbdbc = $(`<div id="html_abbeba087f4796474cbdd10f115cbdbc" style="width: 100.0%; height: 100.0%;"><b>Up</b><br>Director: Pete Docter<br>Año: 2009<br>País: Estados Unidos<br>Género: Animación / Aventura</div>`)[0];
+                popup_66ac0e97af66be79b973636615db80e3.setContent(html_abbeba087f4796474cbdd10f115cbdbc);
+            
+        
+
+        marker_ae2cbdbcabef69f6e4889a58b4f67d2c.bindPopup(popup_66ac0e97af66be79b973636615db80e3)
+        ;
+
+        
+    
+    
+                marker_ae2cbdbcabef69f6e4889a58b4f67d2c.setIcon(icon_e629c990b81f9d6bf19d6d18740fc5a0);
+            
+    
+            var marker_df282a6dd8d66e53df568ed7b043069f = L.marker(
+                [61.524, 8.4689],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_152cec3fe57bb22a5f66c639df5c91e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_592c2fcf421fe15df0b8122be1d6dffb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5e493e1216c3e3911be6314017d9d23 = $(`<div id="html_c5e493e1216c3e3911be6314017d9d23" style="width: 100.0%; height: 100.0%;"><b>Frozen</b><br>Director: Chris Buck y Jennifer Lee<br>Año: 2013<br>País: Estados Unidos / Noruega<br>Género: Animación / Fantasía / Musical</div>`)[0];
+                popup_592c2fcf421fe15df0b8122be1d6dffb.setContent(html_c5e493e1216c3e3911be6314017d9d23);
+            
+        
+
+        marker_df282a6dd8d66e53df568ed7b043069f.bindPopup(popup_592c2fcf421fe15df0b8122be1d6dffb)
+        ;
+
+        
+    
+    
+                marker_df282a6dd8d66e53df568ed7b043069f.setIcon(icon_152cec3fe57bb22a5f66c639df5c91e2);
+            
+    
+            var marker_4cd2810f2bb44981d5ecab6f3d92472b = L.marker(
+                [47.0, 7.5],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_f3f280c408913f4df20c26d45141236f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef96be492a5be53114fd7adc36404e67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_923d76f8818c5838fb50bd4c6eecd40f = $(`<div id="html_923d76f8818c5838fb50bd4c6eecd40f" style="width: 100.0%; height: 100.0%;"><b>La Bella y la Bestia</b><br>Director: Gary Trousdale y Kirk Wise<br>Año: 1991<br>País: Estados Unidos / Francia<br>Género: Animación / Romance / Fantasía</div>`)[0];
+                popup_ef96be492a5be53114fd7adc36404e67.setContent(html_923d76f8818c5838fb50bd4c6eecd40f);
+            
+        
+
+        marker_4cd2810f2bb44981d5ecab6f3d92472b.bindPopup(popup_ef96be492a5be53114fd7adc36404e67)
+        ;
+
+        
+    
+    
+                marker_4cd2810f2bb44981d5ecab6f3d92472b.setIcon(icon_f3f280c408913f4df20c26d45141236f);
+            
+    
+            var marker_23266242fec7cd65b4ed89aaa56ac8d0 = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_0f335d9cc6be239a08f7e547a1621fc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a05a9ec5e2deb46ccb3e6ccc3460347 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f31b6a95e08963641a7a5352b95a9d9 = $(`<div id="html_7f31b6a95e08963641a7a5352b95a9d9" style="width: 100.0%; height: 100.0%;"><b>Titanic</b><br>Director: James Cameron<br>Año: 1997<br>País: Estados Unidos / Reino Unido<br>Género: Drama / Romance</div>`)[0];
+                popup_0a05a9ec5e2deb46ccb3e6ccc3460347.setContent(html_7f31b6a95e08963641a7a5352b95a9d9);
+            
+        
+
+        marker_23266242fec7cd65b4ed89aaa56ac8d0.bindPopup(popup_0a05a9ec5e2deb46ccb3e6ccc3460347)
+        ;
+
+        
+    
+    
+                marker_23266242fec7cd65b4ed89aaa56ac8d0.setIcon(icon_0f335d9cc6be239a08f7e547a1621fc6);
+            
+    
+            var marker_dece50ec380b4e03c2c3e46fa1678a87 = L.marker(
+                [35.71, 139.8107],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_64a6eee22af2faee3135398f00e16e16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05171b4ac3c9b3fc57de9c10c36448d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a29415e28387f57bf4916a9ac6bb799b = $(`<div id="html_a29415e28387f57bf4916a9ac6bb799b" style="width: 100.0%; height: 100.0%;"><b>Hachiko</b><br>Director: Lasse Hallström<br>Año: 2009<br>País: Estados Unidos / Japón<br>Género: Drama / Basada en hechos reales</div>`)[0];
+                popup_05171b4ac3c9b3fc57de9c10c36448d9.setContent(html_a29415e28387f57bf4916a9ac6bb799b);
+            
+        
+
+        marker_dece50ec380b4e03c2c3e46fa1678a87.bindPopup(popup_05171b4ac3c9b3fc57de9c10c36448d9)
+        ;
+
+        
+    
+    
+                marker_dece50ec380b4e03c2c3e46fa1678a87.setIcon(icon_64a6eee22af2faee3135398f00e16e16);
+            
+    
+            tile_layer_fd66834f8dad65b19a0264a780d688ea.addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+                marker_ae2cbdbcabef69f6e4889a58b4f67d2c.setIcon(icon_e629c990b81f9d6bf19d6d18740fc5a0);
+            
+    
+                marker_df282a6dd8d66e53df568ed7b043069f.setIcon(icon_152cec3fe57bb22a5f66c639df5c91e2);
+            
+    
+                marker_4cd2810f2bb44981d5ecab6f3d92472b.setIcon(icon_f3f280c408913f4df20c26d45141236f);
+            
+    
+                marker_23266242fec7cd65b4ed89aaa56ac8d0.setIcon(icon_0f335d9cc6be239a08f7e547a1621fc6);
+            
+    
+                marker_dece50ec380b4e03c2c3e46fa1678a87.setIcon(icon_64a6eee22af2faee3135398f00e16e16);
+            
+    
+            var marker_43ddd987bf16e23b3cce830cd392cc7f = L.marker(
+                [-16.2902, -62.2521],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_0e14fe45d246eba08b1822cc699c254f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b28993be37e9c38e1458a5d59a2b8501 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18226612008404fe43d78284a300ffb9 = $(`<div id="html_18226612008404fe43d78284a300ffb9" style="width: 100.0%; height: 100.0%;"><b>Up</b><br>Director: Pete Docter<br>Año: 2009<br>País: Estados Unidos<br>Género: Animación / Aventura</div>`)[0];
+                popup_b28993be37e9c38e1458a5d59a2b8501.setContent(html_18226612008404fe43d78284a300ffb9);
+            
+        
+
+        marker_43ddd987bf16e23b3cce830cd392cc7f.bindPopup(popup_b28993be37e9c38e1458a5d59a2b8501)
+        ;
+
+        
+    
+    
+                marker_43ddd987bf16e23b3cce830cd392cc7f.setIcon(icon_0e14fe45d246eba08b1822cc699c254f);
+            
+    
+            var marker_b252d0c13eb9c89975595f58ec8eebd3 = L.marker(
+                [61.524, 8.4689],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_110ceccd8dc8b34ae0fdb8b731f3c697 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7ea9e74f9985f732b93ec80f3316865 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa02f9b9b0c954f817579cae3aaa8e7f = $(`<div id="html_fa02f9b9b0c954f817579cae3aaa8e7f" style="width: 100.0%; height: 100.0%;"><b>Frozen</b><br>Director: Chris Buck y Jennifer Lee<br>Año: 2013<br>País: Estados Unidos / Noruega<br>Género: Animación / Fantasía / Musical</div>`)[0];
+                popup_a7ea9e74f9985f732b93ec80f3316865.setContent(html_fa02f9b9b0c954f817579cae3aaa8e7f);
+            
+        
+
+        marker_b252d0c13eb9c89975595f58ec8eebd3.bindPopup(popup_a7ea9e74f9985f732b93ec80f3316865)
+        ;
+
+        
+    
+    
+                marker_b252d0c13eb9c89975595f58ec8eebd3.setIcon(icon_110ceccd8dc8b34ae0fdb8b731f3c697);
+            
+    
+            var marker_a6456cdc20b8fe76a95652c2ee644783 = L.marker(
+                [47.0, 7.5],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_541ceeb28a24146b3c18d3d8b6e62a5a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8cf9323e5ef8749658ab6862d95995d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52e2fce7b2e87519d70681dc5b36a1b6 = $(`<div id="html_52e2fce7b2e87519d70681dc5b36a1b6" style="width: 100.0%; height: 100.0%;"><b>La Bella y la Bestia</b><br>Director: Gary Trousdale y Kirk Wise<br>Año: 1991<br>País: Estados Unidos / Francia<br>Género: Animación / Romance / Fantasía</div>`)[0];
+                popup_c8cf9323e5ef8749658ab6862d95995d.setContent(html_52e2fce7b2e87519d70681dc5b36a1b6);
+            
+        
+
+        marker_a6456cdc20b8fe76a95652c2ee644783.bindPopup(popup_c8cf9323e5ef8749658ab6862d95995d)
+        ;
+
+        
+    
+    
+                marker_a6456cdc20b8fe76a95652c2ee644783.setIcon(icon_541ceeb28a24146b3c18d3d8b6e62a5a);
+            
+    
+            var marker_4b093ff32b2f544f66f5e74328f91e6c = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_b842ebc43d2a6b8cee2fddc663e3ed91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0243751409dcb1ead3e5ecd59440a629 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd25286014435cf7d2c35fd04a70d686 = $(`<div id="html_bd25286014435cf7d2c35fd04a70d686" style="width: 100.0%; height: 100.0%;"><b>Titanic</b><br>Director: James Cameron<br>Año: 1997<br>País: Estados Unidos / Reino Unido<br>Género: Drama / Romance</div>`)[0];
+                popup_0243751409dcb1ead3e5ecd59440a629.setContent(html_bd25286014435cf7d2c35fd04a70d686);
+            
+        
+
+        marker_4b093ff32b2f544f66f5e74328f91e6c.bindPopup(popup_0243751409dcb1ead3e5ecd59440a629)
+        ;
+
+        
+    
+    
+                marker_4b093ff32b2f544f66f5e74328f91e6c.setIcon(icon_b842ebc43d2a6b8cee2fddc663e3ed91);
+            
+    
+            var marker_0904564ccb3cb008a505ed6e5ffd35b2 = L.marker(
+                [35.71, 139.8107],
+                {
+}
+            ).addTo(map_7320a2dd2f23e7bbefc8a597b768b61a);
+        
+    
+            var icon_64ff623bd0a7385b479c351f5785a94f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f6663269c9b4e1cb684045aae4adb75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbc3cc0f6a42b914af1dea50a0ceff51 = $(`<div id="html_bbc3cc0f6a42b914af1dea50a0ceff51" style="width: 100.0%; height: 100.0%;"><b>Hachiko</b><br>Director: Lasse Hallström<br>Año: 2009<br>País: Estados Unidos / Japón<br>Género: Drama / Basada en hechos reales</div>`)[0];
+                popup_1f6663269c9b4e1cb684045aae4adb75.setContent(html_bbc3cc0f6a42b914af1dea50a0ceff51);
+            
+        
+
+        marker_0904564ccb3cb008a505ed6e5ffd35b2.bindPopup(popup_1f6663269c9b4e1cb684045aae4adb75)
+        ;
+
+        
+    
+    
+                marker_0904564ccb3cb008a505ed6e5ffd35b2.setIcon(icon_64ff623bd0a7385b479c351f5785a94f);
+            
+</script>
+</html>
