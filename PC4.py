@@ -197,7 +197,7 @@ else:
         pass
     elif grafico_seleccionado == 'Gráfico 2: Real Madrid - Resultados como local':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>El gráfico circular ilustra la notable dominancia del Real Madrid jugando en su estadio, ya que un abrumador 84.2% de sus partidos como local resultaron en victoria. Las derrotas (10.5%) y los empates (5.3%) constituyen una pequeña fracción de sus resultados, lo que confirma que el equipo es extremadamente sólido y formidable cuando juega ante su afición.</div>", unsafe_allow_html=True)
-        st.image("Real Madrid - Resultados como local.png", caption='Gráfico circular', width=500)
+        st.image("Real Madrid - Resultados como LOCAL.png", caption='Gráfico circular', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico 3: Goles anotados por el equipo de Barcelona':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>El histograma muestra la frecuencia con la que el F.C. Barcelona anotó una determinada cantidad de goles en sus partidos jugando como local. La barra más alta indica que el resultado más común es anotar entre 1 y 2 goles (probablemente 2), ya que esto ocurrió en 7 ocasiones. Por otro lado, el equipo tuvo una frecuencia moderada de anotar entre 4 y 5 goles (4 ocasiones), y una frecuencia menor de anotar entre 6 y 7 goles (2 ocasiones). También, es notable que hubo una ocasión en la que el equipo anotó 0 goles y otra en la que anotó entre 3 y 4 (probablemente 3), lo que indica una buena variabilidad pero con una concentración de resultados en un número bajo a medio de goles.</div>", unsafe_allow_html=True)
@@ -241,6 +241,7 @@ else:
         # Mostrar el mapa en Streamlit
         #st_folium(mapa_cusco, width=700, height=500)
     
+
 
 
 
