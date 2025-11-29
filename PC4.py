@@ -83,9 +83,9 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    ¡Hola! Soy Oriana Camila Lazo Laura de la Ciudad Blanca, Arequipa. Sin embargo, por motivos académicos, vine a Lima para empezar mi vida universitaria. Actualmente, estudio Comunicación Audiovisual. Elegí esta carrera, porque me gusta cómo se puede fusionar la creatividad personal junto a la tecnología y, paralelamente, la creación de narrativas. Además, me atrae que, en esta carrera profesional, se empleen herramientas de audio, diseño y video a fin de exponer mis ideas en medios digitales.
+    ¡Hola 😃! Soy Oriana Camila Lazo Laura de la Ciudad Blanca, Arequipa. Sin embargo, por motivos académicos, vine a Lima para empezar mi vida universitaria. Actualmente, estudio Comunicación Audiovisual. Elegí esta carrera, porque me gusta cómo se puede fusionar la creatividad personal junto a la tecnología y, paralelamente, la creación de narrativas. Además, me atrae que, en esta carrera profesional, se empleen herramientas de audio, diseño y video a fin de exponer mis ideas en medios digitales.
     Me gustaría convertirme en una productora audiovisual, porque siento que poseo la capacidad y responsabilidad de ejecutar futuros proyectos, evidentemente, dentro de un presupuesto y tiempo determinado. Además, me encanta entender y traspasar las tendencias actuales, analizar qué tipo de contenido es demandado actualmente por la audiencia y cómo se distribuyen los proyectos en las plataformas de streaming, redes sociales o cine.
-    En mis tiempos libres, me gusta leer novelas sobre ficción, drama o romance. También, a veces, practico pilates o ejercicios de respiración para deshacerme del estrés ocasional. Escucho música K-pop o pop en inglés; por ejemplo, mi grupo de K-pop favorito es Blackpink y mi artista ocasional, pero preferida, es Lana de Rey.
+    En mis tiempos libres, me gusta leer novelas sobre ficción, drama o romance 🦋. También, a veces, practico pilates o ejercicios de respiración para deshacerme del estrés ocasional. Escucho música K-pop o pop en inglés; por ejemplo, mi grupo de K-pop favorito es Blackpink y mi artista ocasional, pero preferida, es Lana de Rey💮.
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
@@ -238,6 +238,7 @@ else:
         # Mostrar el mapa en Streamlit
         #st_folium(mapa_cusco, width=700, height=500)
     
+
 
 
 
