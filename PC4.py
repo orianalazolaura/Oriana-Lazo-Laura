@@ -177,7 +177,7 @@ else:
     st.markdown("<h1 style='text-align: center;'>Mis primeros gráficos</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
-    graficos = ['Gráfico de barras verticales de lenguas aisladas', 'Gráfico de barras de familias lingüísticas', 'Gráfico de barras horizontales de familias lingüísticas', 'mapa cusco']
+    graficos = ['Gráfico 1: Promedio de tarjetas rojas recibidas por equipo como local', 'Gráfico 2: Real Madrid - Resultados como local', 'Gráfico 3: Goles anotados por el equipo de Barcelona', 'Mapa de mis películas favoritas']
 
     # Creamos un cuadro de selección en la página de gráficos
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
@@ -241,6 +241,7 @@ else:
         # Mostrar el mapa en Streamlit
         #st_folium(mapa_cusco, width=700, height=500)
     
+
 
 
 
